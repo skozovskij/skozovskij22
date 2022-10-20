@@ -1,7 +1,10 @@
 print('hello world')
-class student:
- print('hi')
- def __init__(self):
-  self.height=160
-  print('i am survival')
-first_student=student
+class Student:
+ def __init__(self, height=160):
+  self.height = height
+
+
+nick = Student()
+kate = Student(height=170)
+print(nick.height)
+print(kate.height)
