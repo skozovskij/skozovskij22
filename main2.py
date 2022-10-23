@@ -49,9 +49,9 @@ class Student:
         self.to_study()
     elif self.gladness <= 10:
         self.to_chill() or self.to_sleep()
-    elif self.money <= 10:
+    elif self.money <= 30:
         self.to_work()
-    elif self.progress > 0 and self.gladness >10 and self.money > 10:
+    elif self.progress > 0 and self.gladness >10 and self.money > 30:
         live_cube = random.randint(1, 4)
         if live_cube == 1:
             self.to_study()
